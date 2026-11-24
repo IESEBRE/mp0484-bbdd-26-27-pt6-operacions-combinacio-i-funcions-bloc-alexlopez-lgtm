@@ -1,1 +1,3 @@
-SELECT * FROM dual;
+SELECT COUNT(*)
+  FROM EMPLOYEES
+  WHERE commission_pct IS NULL;
